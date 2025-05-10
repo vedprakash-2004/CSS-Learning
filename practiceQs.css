@@ -1,3 +1,6 @@
+/* h3{
+    background-color: antiquewhite !important;
+}
 *{
     font-family: "Courier New";
    
@@ -21,7 +24,7 @@ h1{
    color: green;
 }
 
-/* desendant selector */
+
 p a{
     color: purple;
     background-color: yellow;
@@ -84,4 +87,12 @@ h3 {
 }
 h3{
     background-color: blue;
+} */
+
+
+div {
+    background-color: blue;
+}
+P{
+    background-color: yellow;
 }
