@@ -1,16 +1,27 @@
 *{
-   font-family: 'Courier New';
-   
+   text-align: center;
+   font-style: 'Georgia';
 }
-h1{
-   color: #1b74e4;
-   
+#mainTopic{
+   color: blue;
 }
-#searchbtn{
-   background-color: black;
+.para{
    color: white;
+   background-color: cornflowerblue;
 }
-.userbtn{
-   background-color: aqua;
-   color: black;
+
+div button{
+   background-color: purple;
+   color: azure;
 }
+button:hover{
+   background-color: yellow;
+   color: blue;
+}
+p:nth-of-type(2n){
+   color: yellow;
+}
+h1::first-letter{
+   color: red;
+}
+
