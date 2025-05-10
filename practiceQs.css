@@ -58,3 +58,30 @@ p:active {
     font-weight: bold;
     color:green
 }
+
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line {
+    color:red;
+}
+
+p::selection{
+    background-color: rgb(232, 159, 51);
+}
+
+h3 {
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
