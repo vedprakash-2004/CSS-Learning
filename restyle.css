@@ -1,27 +1,13 @@
-*{
-   text-align: center;
-   font-style: 'Georgia';
+#outer {
+   height: 200px;
+   width: 70px ;
+   border: 2px solid black;
 }
-#mainTopic{
-   color: blue;
-}
-.para{
-   color: white;
-   background-color: cornflowerblue;
+.inner {
+   height:50px ;
+   width: 50px;
+   border: 2px solid black;
+   margin: 10px;
 }
 
-div button{
-   background-color: purple;
-   color: azure;
-}
-button:hover{
-   background-color: yellow;
-   color: blue;
-}
-p:nth-of-type(2n){
-   color: yellow;
-}
-h1::first-letter{
-   color: red;
-}
 
