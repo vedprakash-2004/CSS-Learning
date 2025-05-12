@@ -1,0 +1,9 @@
+.qbox{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+
+}
