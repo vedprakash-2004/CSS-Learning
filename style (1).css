@@ -16,3 +16,11 @@ font-size: 1.5rem;
 .header {
 grid-column: 1 / span 12;
 }
+
+.sidebar {
+grid-column: 1 / span 3;
+grid-row: 2 / span 10;
+}
+.navigation {
+grid-column: 4 / span 6;
+}
