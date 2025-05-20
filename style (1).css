@@ -8,3 +8,11 @@ grid-template-rows: repeat(12, 1fr);
 grid-gap: 10px;
 }
 
+.container div {
+background-color: pink;
+font-size: 1.5rem;
+}
+
+.header {
+grid-column: 1 / span 12;
+}
