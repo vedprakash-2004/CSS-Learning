@@ -35,3 +35,8 @@ grid-row: 2 / span 10;
 .footer {
     grid-column: 1 / span 12;
 }
+@media (max-width: 720px){
+    .header{
+        grid-column: 1 / span 12;
+    }
+}
