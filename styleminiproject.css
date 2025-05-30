@@ -10,7 +10,7 @@
     background-size: cover;
 }
 
-.btn-one {
+.btn_one {
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -108,4 +108,16 @@ a{
 .sidebar_menu .social_media i:hover {
     opacity: 1;
     transform: scale(1.5);
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two i {
+    opacity: 1;
 }
